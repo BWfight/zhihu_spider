@@ -1,1 +1,4 @@
 *.md linguist-language=Python
+*.m linguist-language=Python
+*.h linguist-language=Python
+*.swift linguist-language=Python
