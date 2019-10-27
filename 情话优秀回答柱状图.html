@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="334ca8b65da94104bdcf27a4ce33170c" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_334ca8b65da94104bdcf27a4ce33170c = echarts.init(
+            document.getElementById('334ca8b65da94104bdcf27a4ce33170c'), 'white', {renderer: 'canvas'});
+        var option_334ca8b65da94104bdcf27a4ce33170c = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "data": [
+                118196,
+                93473,
+                67419,
+                56610,
+                51240,
+                41551,
+                39119,
+                35316,
+                31998,
+                30562
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "color": function (params) {                        if (params.value > 60000) {return 'red';}                         else if (params.value == 56610) {return 'blue';}                        else if (params.value == 51240 || params.value == 35316) {return 'gray';}                        else if (params.value == 39119) {return 'orange';}                        else if (params.value == 31998) {return 'pink';}                        else if (params.value == 30562) {return 'purple';}                        return 'green';}                    
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "name": "\u4f5c\u8005",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": -45,
+                "margin": 8
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u843d\u5e55\u53bb\u6740\u751f",
+                "Aurora",
+                "\u7126\u5a07\u5a07\u5a07Jiao",
+                "\u5019\u9e1f\u6811",
+                "\u533f\u540d\u7528\u6237",
+                "\u6885\u5b50\u9171",
+                "\u5f26\u6b4c\u7f13\u7f13",
+                "TNT TNT",
+                "\u963f\u6c69\u6c69",
+                "\u5473\u662f\u6e05\u6b22"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u8d5e\u6570",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u4e07\u8d5e\u56de\u7b54TOP10"
+        }
+    ]
+};
+        chart_334ca8b65da94104bdcf27a4ce33170c.setOption(option_334ca8b65da94104bdcf27a4ce33170c);
+    </script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="1d9bb195ac334e8e9a00f809f500642f" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_1d9bb195ac334e8e9a00f809f500642f = echarts.init(
+            document.getElementById('1d9bb195ac334e8e9a00f809f500642f'), 'white', {renderer: 'canvas'});
+        var option_1d9bb195ac334e8e9a00f809f500642f = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "data": [
+                3,
+                3,
+                2,
+                1,
+                3,
+                1,
+                3,
+                1,
+                1,
+                7,
+                1,
+                1,
+                3,
+                1,
+                2,
+                1,
+                1,
+                2,
+                2,
+                1
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "markPoint": {
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "color": "#fff",
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "name": "\u6700\u5927\u503c",
+                        "type": "max"
+                    }
+                ]
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": new echarts.graphic.LinearGradient(                        0, 0, 0, 1,                         [                            {offset: 0, color: 'rgba(0, 244, 255, 1)'},                             {offset: 1, color: 'rgba(0, 77, 167, 1)'}                        ],                         false                        ),
+                    "barBorderRadius": [
+                        30,
+                        30,
+                        30,
+                        30
+                    ],
+                    "shadowColor": "rgb(0, 160, 221)"
+                }
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "name": "\u95ee\u9898",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": -25,
+                "margin": 8
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u6709\u54ea\u4e9b\u5fae\u751c\u7684<em>\u60c5\u8bdd</em>\uff1f",
+                "\u6709\u4ec0\u4e48\u8ba9\u4f60\u6026\u7136\u5fc3\u52a8\u7684<em>\u60c5\u8bdd</em>\u5417\uff1f",
+                "\u6709\u54ea\u4e9b\u751c\u5230\u9aa8\u5b50\u91cc\u7684<em>\u60c5\u8bdd</em>\uff1f",
+                "\u6709\u54ea\u4e9b\u8ba9\u4eba\u5fc3\u6f6e\u6f8e\u6e43\u7684<em>\u60c5\u8bdd</em>\uff1f",
+                "\u6709\u4ec0\u4e48\u53ef\u4ee5\u751c\u5230\u7537\u5b69\u5b50\u7684<em>\u60c5\u8bdd</em>\uff1f",
+                "\u6709\u54ea\u4e9b\u4f60\u4eec\u77e5\u9053\u7684<em>\u60c5\u8bdd</em>\u53e5\u5b50\u65e2\u6587\u827a\u53c8\u751c?",
+                "\u6709\u54ea\u4e9b\u53ef\u7231\u7684<em>\u60c5\u8bdd</em>\u53e5\u5b50\uff1f",
+                "\u54ea\u90e8\u5f71\u89c6\u4f5c\u54c1\u91cc\u7684<em>\u60c5\u8bdd</em>\u6700\u611f\u52a8\u4f60\uff1f",
+                "\u4f60\u5199\u8fc7\u7684\u6700\u6d6a\u6f2b\u7684<em>\u60c5\u8bdd</em>\u662f\u4ec0\u4e48\u5462\uff1f",
+                "\u4f60\u542c\u8fc7\u54ea\u4e9b\u8ba9\u4eba\u6026\u7136\u5fc3\u52a8\u7684<em>\u60c5\u8bdd</em>\u6216\u8005\u8bd7\u53e5\uff1f",
+                "\u4f60\u542c\u8fc7\u6700\u8d5e\u7684<em>\u60c5\u8bdd</em>\u662f\u4ec0\u4e48\uff1f",
+                "\u6709\u54ea\u4e9b\u6765\u81ea\u4e66\u91cc\u9762\u7684\u6587\u827a<em>\u60c5\u8bdd</em>\uff1f",
+                "\u4f60\u542c\u8fc7\u7684\u6700\u53ef\u7231\u7684<em>\u60c5\u8bdd</em>\u662f\u4ec0\u4e48\uff1f",
+                "\u6709\u6ca1\u6709\u54ea\u4e9b\u5f88\u60ca\u8273\u7684\u53e4\u8bd7\u8bcd\u6216\u53e4\u4ee3<em>\u60c5\u8bdd</em>\uff1f",
+                "\u6700\u597d\u542c\u7684<em>\u60c5\u8bdd</em>\u662f\u4ec0\u4e48\uff1f",
+                "\u4f60\u542c\u8fc7\u6700\u52a8\u4eba\u7684\u4e00\u53e5<em>\u60c5\u8bdd</em>\u662f\u4ec0\u4e48\uff1f",
+                "\u6709\u54ea\u4e9b\u8ba9\u4f60\u6b32\u7f62\u4e0d\u80fd\u7684\u571f\u5473<em>\u60c5\u8bdd</em>\uff1f",
+                "\u6709\u54ea\u4e9b\u542c\u8d77\u6765\u6216\u6e29\u6696\u6216\u5fc3\u9178\u7684<em>\u60c5\u8bdd</em>\uff1f",
+                "\u4f60\u89c9\u5f97\u6700\u7f8e\u7684<em>\u60c5\u8bdd</em>\u662f\u4ec0\u4e48\uff1f",
+                "\u4f60\u5199\u8fc7\u6216\u8005\u8bfb\u8fc7\u7684\uff0c\u6700\u52a8\u4eba\u7684<em>\u60c5\u8bdd</em>\u662f\u4ec0\u4e48\uff1f"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u9891\u6570",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u95ee\u9898\u4e0b\u4e07\u8d5e\u56de\u7b54\u6570"
+        }
+    ]
+};
+        chart_1d9bb195ac334e8e9a00f809f500642f.setOption(option_1d9bb195ac334e8e9a00f809f500642f);
+    </script>
+</body>
+</html>
